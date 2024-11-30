@@ -1,1 +1,74 @@
-*.doc
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы среды разработки
+.vscode
+.devcontainer
+
+
+# Файлы сборки
+/build/
+bin/
+obj/
+*.o
+*.a
+*.so
+*.out
+*.dSYM/
+*.debug
+
+# Скомпилированные файлы
+*.dll
+*.lib
+*.exp
+*.pdb
+*.idb
+
+# CMake файлы
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+Makefile
+Makefile.user
+
+# Программы тестирования
+/tests/*
+/test/
+
+# Статические библиотеки
+*.a
+*.lib
+*.lo
+*.la
+
+# Файлы, созданные IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Файлы, связанные с кодогенерацией
+*.generated.h
+*.generated.cpp
+
+# Временные файлы
+*.log
+*.bak
+*.tmp
+*.swp
+
+# Каталоги, специфичные для определённых инструментов
+/.idea
+/.vscode
+/.vs
+
+# Файлы для Eclipse IDE
+*.project
+*.cproject
+
+# Файлы для Xcode
+*.xcodeproj
+*.xcworkspace
