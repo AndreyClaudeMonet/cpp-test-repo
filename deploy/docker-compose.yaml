@@ -6,5 +6,5 @@ services:
       context: ../
       dockerfile: ./deploy/Dockerfile
     volumes:
-      - ..:/test
+      - ..:/app
     command: ["sleep", "infinity"]

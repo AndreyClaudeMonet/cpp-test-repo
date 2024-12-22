@@ -14,8 +14,8 @@ RUN apt-get update && \
 RUN apt-get update && \
     apt-get install -y cmake
 
-RUN apt install clang-format
+RUN apt install clang-format -y
 
 # Устанавливаем рабочую директорию
-RUN mkdir /test
-WORKDIR /test
+RUN mkdir /app
+WORKDIR /app
